@@ -1,8 +1,16 @@
 const assert = require('assert').strict;
 
 function toHoursMinutesSeconds(value) {
+    let clock = (value) => {
+        
+    }
+    return clock;
 }
 
-assert.deepStrictEqual(toHoursMinutesSeconds(3600), "1:0:0")
+console.log(toHoursMinutesSeconds(3600));
+console.log(toHoursMinutesSeconds(3720));
+console.log(toHoursMinutesSeconds(3725));
+
+/* assert.deepStrictEqual(toHoursMinutesSeconds(3600), "1:0:0")
 assert.deepStrictEqual(toHoursMinutesSeconds(3720), "1:20:0")
-assert.deepStrictEqual(toHoursMinutesSeconds(3725), "1:20:5")
+assert.deepStrictEqual(toHoursMinutesSeconds(3725), "1:20:5") */

@@ -1,9 +1,18 @@
 function printMultiplicationTables() {
 
+    let num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    let num2 = num1
+
+    let godarr= [[],[]];
+    for (let i = 0; i < num1.length; i++) {
+        for (let j = 0; j < num2.length; j++) {
+            
+        }
+    }
 }
 
 printMultiplicationTables()
-// expected output
+// expected output hasta la tabla del 10
 //     1   2   3   ...
 // 1   1   2   3   ...
 // 2   2   4   6   ...
